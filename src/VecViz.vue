@@ -6,9 +6,13 @@
         color="primary"
         :input-value="nodeEditorSettings.values.showAdvancedRenderSettings"
         @change="onShowAdvancedControlsChanged"
-        label="Show 'Position' controls"
+        label="显示下标控制"
         hide-details
     />
+
+    <v-toolbar-title>
+    线性代数数学学习
+    </v-toolbar-title>
 
     <v-dialog v-model="showSettingsDialog" class="settings-dialog-container" width="600">
         <template v-slot:activator="{ on: showDialog }">
@@ -32,6 +36,8 @@
       </SplitArea>
     </Split>
   </div>
+
+  <b class="record-keeping">粤ICP备20049594号-1</b>
 </div>
 </template>
 
@@ -67,6 +73,10 @@ export default {
 </script>
 
 <style scoped>
+.record-keeping{
+  font-size: 0.75rem !important;
+}
+
 .shrink {
     transform: scale(0.75);
     transform-origin: left;

@@ -11,7 +11,7 @@ import GithubCorner from 'vue-github-corners';
 export default {
     name: 'App',
     components: {
-        GithubCorner,
+        // GithubCorner,
     },
 };
 </script>
