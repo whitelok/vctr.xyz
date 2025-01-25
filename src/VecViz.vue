@@ -37,7 +37,7 @@
     </Split>
   </div>
 
-  <b class="record-keeping">粤ICP备20049594号-1</b>
+  <b class="record-keeping"><a href="https://beian.miit.gov.cn/">粤ICP备20049594号-1</a></b>
 </div>
 </template>
 
